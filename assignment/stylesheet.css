@@ -36,11 +36,16 @@ header {
 main{
     background-color: lightgray;
     padding: 1em;
+ 
 
 }
 
 body{
     margin: 0;
     background-image: url(/Users/timanderson/Desktop/prime/tier-1/week5/prime-pw-week-5-assignment-part-2/assignment/record.png);
+
+       /* Regarding the question, "Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image." 
+       
+       Looking at w3 schools, 'background-image' repeats horizontally and vertically (which fills out the page) by default. Wouldn't 'background-repeat' be used to modify that default? For example, if you only wanted to have the image display once, you would want to use 'background-repeat: no-repeat;' Or am I just misunderstanding whet's being asked in the assignment? */
 
 }  
