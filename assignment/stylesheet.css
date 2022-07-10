@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="stylesheet.css">
-    <meta charset="utf-8">
-    <title>Week 5 Assignment</title>
-  </head>
-  <body>
-    <header>
-      <h1>Week 5 Assignment - Part 2</h1>
-      <h2>Tim's Record Shop</h2>
-    </header>
-    <main>
-      <p>See console for output.</p>
-    </main>
-    <!-- Create an unordered list with any questions you have -->
-  </body>
-</html>
-
-
-<!-- ## Assignment - Practice with HTML & CSS
+/* ## Assignment - Practice with HTML & CSS
 
 Time to make our index.html page look cool!
 
@@ -45,4 +25,22 @@ Add a Stylesheet:
 Here's an example of what the style could look like:
 <img src="./example.png">
 
-__STRETCH GOAL:__ Use CSS style classes vs element names to do your styling, except for adding the margin to the `body`. That is a good thing to add to every CSS file, and it should use the `body` HTML tag name. -->
+__STRETCH GOAL:__ Use CSS style classes vs element names to do your styling, except for adding the margin to the `body`. That is a good thing to add to every CSS file, and it should use the `body` HTML tag name. */
+
+header {
+    text-align: center;
+    background-color: indigo;
+    color: ivory;
+}
+
+main{
+    background-color: lightgray;
+    padding: 1em;
+
+}
+
+body{
+    margin: 0;
+    background-image: url(/Users/timanderson/Desktop/prime/tier-1/week5/prime-pw-week-5-assignment-part-2/assignment/record.png);
+
+}  
